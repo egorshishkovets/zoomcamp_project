@@ -1,0 +1,28 @@
+[2022-03-15 16:26:16,599] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: imdb_name_basics.format_to_parquet_task scheduled__2022-03-14T00:00:00+00:00 [queued]>
+[2022-03-15 16:26:16,790] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: imdb_name_basics.format_to_parquet_task scheduled__2022-03-14T00:00:00+00:00 [queued]>
+[2022-03-15 16:26:16,800] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-15 16:26:16,804] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-15 16:26:16,814] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-15 16:26:17,412] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2022-03-14 00:00:00+00:00
+[2022-03-15 16:26:17,568] {standard_task_runner.py:52} INFO - Started process 280 to run task
+[2022-03-15 16:26:17,636] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'imdb_name_basics', 'format_to_parquet_task', 'scheduled__2022-03-14T00:00:00+00:00', '--job-id', '366', '--raw', '--subdir', 'DAGS_FOLDER/name_basics_dag.py', '--cfg-path', '/tmp/tmpbzhwla4w', '--error-file', '/tmp/tmp24zl3iqy']
+[2022-03-15 16:26:17,648] {standard_task_runner.py:77} INFO - Job 366: Subtask format_to_parquet_task
+[2022-03-15 16:26:18,151] {logging_mixin.py:109} INFO - Running <TaskInstance: imdb_name_basics.format_to_parquet_task scheduled__2022-03-14T00:00:00+00:00 [running]> on host d8c9f2003356
+[2022-03-15 16:26:18,606] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=imdb_name_basics
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-14T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-14T00:00:00+00:00
+[2022-03-15 16:33:46,366] {python.py:175} INFO - Done. Returned value was: None
+[2022-03-15 16:34:30,248] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=imdb_name_basics, task_id=format_to_parquet_task, execution_date=20220314T000000, start_date=20220315T162616, end_date=20220315T163429
+[2022-03-15 16:38:40,401] {local_task_job.py:212} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2022-03-15 16:39:08,202] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 280. PIDs of all processes in the group: [280]
+[2022-03-15 16:39:12,902] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 280
+[2022-03-15 16:40:18,028] {process_utils.py:138} WARNING - process psutil.Process(pid=280, name='airflow task ru', status='running', started='16:26:16') did not respond to SIGTERM. Trying SIGKILL
+[2022-03-15 16:40:37,553] {process_utils.py:75} INFO - Sending the signal Signals.SIGKILL to group 280
+[2022-03-15 16:41:43,815] {process_utils.py:149} ERROR - Process psutil.Process(pid=280, name='airflow task ru', status='running', started='16:26:16') (280) could not be killed. Giving up.
+[2022-03-15 16:42:15,310] {standard_task_runner.py:135} ERROR - Job 366 was killed before it finished (likely due to running out of memory)
+[2022-03-15 16:42:46,410] {local_task_job.py:142} ERROR - Heartbeat time limit exceeded!
