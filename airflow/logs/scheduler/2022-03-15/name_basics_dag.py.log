@@ -1424,3 +1424,87 @@ Please take a look at these docs to improve your DAG import time:
 [2022-03-15 18:19:19,699] {logging_mixin.py:109} INFO - [2022-03-15 18:19:19,698] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-03-15 18:19:19,759] {logging_mixin.py:109} INFO - [2022-03-15 18:19:19,758] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
 [2022-03-15 18:19:19,784] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 3.841 seconds
+[2022-03-15 18:19:50,116] {processor.py:163} INFO - Started process (PID=1446) to work on /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:19:50,121] {processor.py:642} INFO - Processing file /opt/airflow/dags/name_basics_dag.py for tasks to queue
+[2022-03-15 18:19:50,123] {logging_mixin.py:109} INFO - [2022-03-15 18:19:50,123] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:19:53,756] {processor.py:654} INFO - DAG(s) dict_keys(['imdb_name_basics']) retrieved from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:19:53,799] {logging_mixin.py:109} INFO - [2022-03-15 18:19:53,797] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:19:53,881] {logging_mixin.py:109} INFO - [2022-03-15 18:19:53,880] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
+[2022-03-15 18:19:53,918] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 3.810 seconds
+[2022-03-15 18:20:24,326] {processor.py:163} INFO - Started process (PID=1475) to work on /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:20:24,332] {processor.py:642} INFO - Processing file /opt/airflow/dags/name_basics_dag.py for tasks to queue
+[2022-03-15 18:20:24,335] {logging_mixin.py:109} INFO - [2022-03-15 18:20:24,335] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:20:27,453] {processor.py:654} INFO - DAG(s) dict_keys(['imdb_name_basics']) retrieved from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:20:27,491] {logging_mixin.py:109} INFO - [2022-03-15 18:20:27,489] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:20:27,546] {logging_mixin.py:109} INFO - [2022-03-15 18:20:27,545] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
+[2022-03-15 18:20:27,575] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 3.261 seconds
+[2022-03-15 18:20:57,896] {processor.py:163} INFO - Started process (PID=1523) to work on /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:20:57,901] {processor.py:642} INFO - Processing file /opt/airflow/dags/name_basics_dag.py for tasks to queue
+[2022-03-15 18:20:57,904] {logging_mixin.py:109} INFO - [2022-03-15 18:20:57,904] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:21:01,097] {processor.py:654} INFO - DAG(s) dict_keys(['imdb_name_basics']) retrieved from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:21:01,134] {logging_mixin.py:109} INFO - [2022-03-15 18:21:01,133] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:21:01,188] {logging_mixin.py:109} INFO - [2022-03-15 18:21:01,188] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
+[2022-03-15 18:21:01,211] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 3.322 seconds
+[2022-03-15 18:21:31,421] {processor.py:163} INFO - Started process (PID=1570) to work on /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:21:31,425] {processor.py:642} INFO - Processing file /opt/airflow/dags/name_basics_dag.py for tasks to queue
+[2022-03-15 18:21:31,428] {logging_mixin.py:109} INFO - [2022-03-15 18:21:31,427] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:21:35,068] {processor.py:654} INFO - DAG(s) dict_keys(['imdb_name_basics']) retrieved from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:21:35,129] {logging_mixin.py:109} INFO - [2022-03-15 18:21:35,128] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:21:35,187] {logging_mixin.py:109} INFO - [2022-03-15 18:21:35,186] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
+[2022-03-15 18:21:35,212] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 3.800 seconds
+[2022-03-15 18:22:05,406] {processor.py:163} INFO - Started process (PID=1610) to work on /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:22:05,411] {processor.py:642} INFO - Processing file /opt/airflow/dags/name_basics_dag.py for tasks to queue
+[2022-03-15 18:22:05,414] {logging_mixin.py:109} INFO - [2022-03-15 18:22:05,414] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:22:08,761] {processor.py:654} INFO - DAG(s) dict_keys(['imdb_name_basics']) retrieved from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:22:08,819] {logging_mixin.py:109} INFO - [2022-03-15 18:22:08,817] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:22:08,890] {logging_mixin.py:109} INFO - [2022-03-15 18:22:08,889] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
+[2022-03-15 18:22:08,912] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 3.515 seconds
+[2022-03-15 18:22:39,177] {processor.py:163} INFO - Started process (PID=1646) to work on /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:22:39,182] {processor.py:642} INFO - Processing file /opt/airflow/dags/name_basics_dag.py for tasks to queue
+[2022-03-15 18:22:39,185] {logging_mixin.py:109} INFO - [2022-03-15 18:22:39,185] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:22:42,440] {processor.py:654} INFO - DAG(s) dict_keys(['imdb_name_basics']) retrieved from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:22:42,480] {logging_mixin.py:109} INFO - [2022-03-15 18:22:42,479] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:22:42,538] {logging_mixin.py:109} INFO - [2022-03-15 18:22:42,538] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
+[2022-03-15 18:22:42,560] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 3.390 seconds
+[2022-03-15 18:23:12,815] {processor.py:163} INFO - Started process (PID=1692) to work on /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:23:12,820] {processor.py:642} INFO - Processing file /opt/airflow/dags/name_basics_dag.py for tasks to queue
+[2022-03-15 18:23:12,823] {logging_mixin.py:109} INFO - [2022-03-15 18:23:12,823] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:23:16,138] {processor.py:654} INFO - DAG(s) dict_keys(['imdb_name_basics']) retrieved from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:23:16,175] {logging_mixin.py:109} INFO - [2022-03-15 18:23:16,174] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:23:16,233] {logging_mixin.py:109} INFO - [2022-03-15 18:23:16,233] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
+[2022-03-15 18:23:16,255] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 3.448 seconds
+[2022-03-15 18:23:46,512] {processor.py:163} INFO - Started process (PID=1739) to work on /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:23:46,517] {processor.py:642} INFO - Processing file /opt/airflow/dags/name_basics_dag.py for tasks to queue
+[2022-03-15 18:23:46,519] {logging_mixin.py:109} INFO - [2022-03-15 18:23:46,519] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:23:49,729] {processor.py:654} INFO - DAG(s) dict_keys(['imdb_name_basics']) retrieved from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:23:49,769] {logging_mixin.py:109} INFO - [2022-03-15 18:23:49,768] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:23:49,823] {logging_mixin.py:109} INFO - [2022-03-15 18:23:49,822] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
+[2022-03-15 18:23:49,852] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 3.346 seconds
+[2022-03-15 18:24:20,181] {processor.py:163} INFO - Started process (PID=1769) to work on /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:24:20,186] {processor.py:642} INFO - Processing file /opt/airflow/dags/name_basics_dag.py for tasks to queue
+[2022-03-15 18:24:20,189] {logging_mixin.py:109} INFO - [2022-03-15 18:24:20,189] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:24:24,153] {processor.py:654} INFO - DAG(s) dict_keys(['imdb_name_basics']) retrieved from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:24:24,192] {logging_mixin.py:109} INFO - [2022-03-15 18:24:24,190] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:24:24,246] {logging_mixin.py:109} INFO - [2022-03-15 18:24:24,246] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
+[2022-03-15 18:24:24,268] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 4.096 seconds
+[2022-03-15 18:24:54,497] {processor.py:163} INFO - Started process (PID=1815) to work on /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:24:54,502] {processor.py:642} INFO - Processing file /opt/airflow/dags/name_basics_dag.py for tasks to queue
+[2022-03-15 18:24:54,505] {logging_mixin.py:109} INFO - [2022-03-15 18:24:54,505] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:24:57,747] {processor.py:654} INFO - DAG(s) dict_keys(['imdb_name_basics']) retrieved from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:24:57,785] {logging_mixin.py:109} INFO - [2022-03-15 18:24:57,784] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:24:57,840] {logging_mixin.py:109} INFO - [2022-03-15 18:24:57,840] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
+[2022-03-15 18:24:57,865] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 3.378 seconds
+[2022-03-15 18:25:28,286] {processor.py:163} INFO - Started process (PID=1865) to work on /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:25:28,291] {processor.py:642} INFO - Processing file /opt/airflow/dags/name_basics_dag.py for tasks to queue
+[2022-03-15 18:25:28,294] {logging_mixin.py:109} INFO - [2022-03-15 18:25:28,293] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:25:31,088] {processor.py:654} INFO - DAG(s) dict_keys(['imdb_name_basics']) retrieved from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:25:31,123] {logging_mixin.py:109} INFO - [2022-03-15 18:25:31,121] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:25:31,172] {logging_mixin.py:109} INFO - [2022-03-15 18:25:31,172] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
+[2022-03-15 18:25:31,195] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 2.915 seconds
+[2022-03-15 18:26:01,435] {processor.py:163} INFO - Started process (PID=1912) to work on /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:26:01,441] {processor.py:642} INFO - Processing file /opt/airflow/dags/name_basics_dag.py for tasks to queue
+[2022-03-15 18:26:01,445] {logging_mixin.py:109} INFO - [2022-03-15 18:26:01,444] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:26:05,270] {processor.py:654} INFO - DAG(s) dict_keys(['imdb_name_basics']) retrieved from /opt/airflow/dags/name_basics_dag.py
+[2022-03-15 18:26:05,308] {logging_mixin.py:109} INFO - [2022-03-15 18:26:05,307] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:26:05,365] {logging_mixin.py:109} INFO - [2022-03-15 18:26:05,364] {dag.py:2935} INFO - Setting next_dagrun for imdb_name_basics to None
+[2022-03-15 18:26:05,390] {processor.py:171} INFO - Processing /opt/airflow/dags/name_basics_dag.py took 3.967 seconds

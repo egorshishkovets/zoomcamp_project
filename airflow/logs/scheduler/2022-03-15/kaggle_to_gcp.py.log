@@ -2764,3 +2764,87 @@ Please take a look at these docs to improve your DAG import time:
 [2022-03-15 18:19:19,661] {logging_mixin.py:109} INFO - [2022-03-15 18:19:19,660] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-03-15 18:19:19,717] {logging_mixin.py:109} INFO - [2022-03-15 18:19:19,717] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
 [2022-03-15 18:19:19,741] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 3.790 seconds
+[2022-03-15 18:19:50,116] {processor.py:163} INFO - Started process (PID=1448) to work on /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:19:50,122] {processor.py:642} INFO - Processing file /opt/airflow/dags/kaggle_to_gcp.py for tasks to queue
+[2022-03-15 18:19:50,125] {logging_mixin.py:109} INFO - [2022-03-15 18:19:50,125] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:19:53,696] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_fhv_data']) retrieved from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:19:53,742] {logging_mixin.py:109} INFO - [2022-03-15 18:19:53,741] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:19:53,803] {logging_mixin.py:109} INFO - [2022-03-15 18:19:53,803] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
+[2022-03-15 18:19:53,829] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 3.720 seconds
+[2022-03-15 18:20:24,331] {processor.py:163} INFO - Started process (PID=1477) to work on /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:20:24,336] {processor.py:642} INFO - Processing file /opt/airflow/dags/kaggle_to_gcp.py for tasks to queue
+[2022-03-15 18:20:24,339] {logging_mixin.py:109} INFO - [2022-03-15 18:20:24,339] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:20:27,424] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_fhv_data']) retrieved from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:20:27,465] {logging_mixin.py:109} INFO - [2022-03-15 18:20:27,464] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:20:27,515] {logging_mixin.py:109} INFO - [2022-03-15 18:20:27,515] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
+[2022-03-15 18:20:27,539] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 3.216 seconds
+[2022-03-15 18:20:57,916] {processor.py:163} INFO - Started process (PID=1525) to work on /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:20:57,920] {processor.py:642} INFO - Processing file /opt/airflow/dags/kaggle_to_gcp.py for tasks to queue
+[2022-03-15 18:20:57,924] {logging_mixin.py:109} INFO - [2022-03-15 18:20:57,923] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:21:01,091] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_fhv_data']) retrieved from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:21:01,133] {logging_mixin.py:109} INFO - [2022-03-15 18:21:01,132] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:21:01,188] {logging_mixin.py:109} INFO - [2022-03-15 18:21:01,188] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
+[2022-03-15 18:21:01,211] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 3.309 seconds
+[2022-03-15 18:21:31,421] {processor.py:163} INFO - Started process (PID=1572) to work on /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:21:31,425] {processor.py:642} INFO - Processing file /opt/airflow/dags/kaggle_to_gcp.py for tasks to queue
+[2022-03-15 18:21:31,428] {logging_mixin.py:109} INFO - [2022-03-15 18:21:31,427] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:21:34,934] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_fhv_data']) retrieved from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:21:34,980] {logging_mixin.py:109} INFO - [2022-03-15 18:21:34,979] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:21:35,043] {logging_mixin.py:109} INFO - [2022-03-15 18:21:35,043] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
+[2022-03-15 18:21:35,073] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 3.658 seconds
+[2022-03-15 18:22:05,406] {processor.py:163} INFO - Started process (PID=1612) to work on /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:22:05,411] {processor.py:642} INFO - Processing file /opt/airflow/dags/kaggle_to_gcp.py for tasks to queue
+[2022-03-15 18:22:05,414] {logging_mixin.py:109} INFO - [2022-03-15 18:22:05,414] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:22:08,716] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_fhv_data']) retrieved from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:22:08,768] {logging_mixin.py:109} INFO - [2022-03-15 18:22:08,766] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:22:08,830] {logging_mixin.py:109} INFO - [2022-03-15 18:22:08,830] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
+[2022-03-15 18:22:08,855] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 3.458 seconds
+[2022-03-15 18:22:39,189] {processor.py:163} INFO - Started process (PID=1648) to work on /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:22:39,193] {processor.py:642} INFO - Processing file /opt/airflow/dags/kaggle_to_gcp.py for tasks to queue
+[2022-03-15 18:22:39,196] {logging_mixin.py:109} INFO - [2022-03-15 18:22:39,196] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:22:42,378] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_fhv_data']) retrieved from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:22:42,416] {logging_mixin.py:109} INFO - [2022-03-15 18:22:42,415] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:22:42,472] {logging_mixin.py:109} INFO - [2022-03-15 18:22:42,472] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
+[2022-03-15 18:22:42,497] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 3.315 seconds
+[2022-03-15 18:23:12,816] {processor.py:163} INFO - Started process (PID=1694) to work on /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:23:12,820] {processor.py:642} INFO - Processing file /opt/airflow/dags/kaggle_to_gcp.py for tasks to queue
+[2022-03-15 18:23:12,824] {logging_mixin.py:109} INFO - [2022-03-15 18:23:12,823] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:23:16,087] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_fhv_data']) retrieved from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:23:16,126] {logging_mixin.py:109} INFO - [2022-03-15 18:23:16,125] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:23:16,181] {logging_mixin.py:109} INFO - [2022-03-15 18:23:16,180] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
+[2022-03-15 18:23:16,204] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 3.395 seconds
+[2022-03-15 18:23:46,516] {processor.py:163} INFO - Started process (PID=1741) to work on /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:23:46,521] {processor.py:642} INFO - Processing file /opt/airflow/dags/kaggle_to_gcp.py for tasks to queue
+[2022-03-15 18:23:46,525] {logging_mixin.py:109} INFO - [2022-03-15 18:23:46,525] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:23:49,704] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_fhv_data']) retrieved from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:23:49,744] {logging_mixin.py:109} INFO - [2022-03-15 18:23:49,742] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:23:49,800] {logging_mixin.py:109} INFO - [2022-03-15 18:23:49,799] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
+[2022-03-15 18:23:49,827] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 3.317 seconds
+[2022-03-15 18:24:20,182] {processor.py:163} INFO - Started process (PID=1771) to work on /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:24:20,186] {processor.py:642} INFO - Processing file /opt/airflow/dags/kaggle_to_gcp.py for tasks to queue
+[2022-03-15 18:24:20,189] {logging_mixin.py:109} INFO - [2022-03-15 18:24:20,189] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:24:23,923] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_fhv_data']) retrieved from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:24:23,974] {logging_mixin.py:109} INFO - [2022-03-15 18:24:23,970] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:24:24,038] {logging_mixin.py:109} INFO - [2022-03-15 18:24:24,038] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
+[2022-03-15 18:24:24,068] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 3.893 seconds
+[2022-03-15 18:24:54,502] {processor.py:163} INFO - Started process (PID=1817) to work on /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:24:54,506] {processor.py:642} INFO - Processing file /opt/airflow/dags/kaggle_to_gcp.py for tasks to queue
+[2022-03-15 18:24:54,509] {logging_mixin.py:109} INFO - [2022-03-15 18:24:54,508] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:24:57,735] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_fhv_data']) retrieved from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:24:57,773] {logging_mixin.py:109} INFO - [2022-03-15 18:24:57,772] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:24:57,826] {logging_mixin.py:109} INFO - [2022-03-15 18:24:57,826] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
+[2022-03-15 18:24:57,849] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 3.356 seconds
+[2022-03-15 18:25:28,289] {processor.py:163} INFO - Started process (PID=1867) to work on /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:25:28,292] {processor.py:642} INFO - Processing file /opt/airflow/dags/kaggle_to_gcp.py for tasks to queue
+[2022-03-15 18:25:28,295] {logging_mixin.py:109} INFO - [2022-03-15 18:25:28,294] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:25:31,185] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_fhv_data']) retrieved from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:25:31,222] {logging_mixin.py:109} INFO - [2022-03-15 18:25:31,221] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:25:31,268] {logging_mixin.py:109} INFO - [2022-03-15 18:25:31,267] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
+[2022-03-15 18:25:31,287] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 3.005 seconds
+[2022-03-15 18:26:01,439] {processor.py:163} INFO - Started process (PID=1914) to work on /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:26:01,443] {processor.py:642} INFO - Processing file /opt/airflow/dags/kaggle_to_gcp.py for tasks to queue
+[2022-03-15 18:26:01,446] {logging_mixin.py:109} INFO - [2022-03-15 18:26:01,445] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:26:05,332] {processor.py:654} INFO - DAG(s) dict_keys(['data_ingestion_fhv_data']) retrieved from /opt/airflow/dags/kaggle_to_gcp.py
+[2022-03-15 18:26:05,370] {logging_mixin.py:109} INFO - [2022-03-15 18:26:05,369] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-03-15 18:26:05,429] {logging_mixin.py:109} INFO - [2022-03-15 18:26:05,429] {dag.py:2935} INFO - Setting next_dagrun for data_ingestion_fhv_data to None
+[2022-03-15 18:26:05,452] {processor.py:171} INFO - Processing /opt/airflow/dags/kaggle_to_gcp.py took 4.023 seconds
