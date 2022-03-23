@@ -1,2 +1,4 @@
-apache-airflow-providers-google
-pyarrow
+apache-airflow-providers-google==6.2.0
+pyarrow==5.0.0
+pydantic==1.9.0
+xgboost
