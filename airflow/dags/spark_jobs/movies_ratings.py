@@ -39,6 +39,6 @@ movies_ratings = (movies.join(ratings, on='movieId', how='inner')
 # Saving the data to BigQuery
 (movies_ratings.write.format('bigquery')
   .mode('overwrite')
-  .option('table', 'movielens_dataset.movies_ratngs') 
+  .option('table', 'movielens_dataset.movies_ratings') 
   .save()
 )
