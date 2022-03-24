@@ -2,7 +2,6 @@ import os
 from datetime import datetime
 
 from airflow import DAG
-from airflow.utils.dates import days_ago
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 
@@ -147,7 +146,7 @@ with DAG(
                 }
             )
 
-
+  
             download_file_task >> \
                 unpacking_archive_data >> format_to_parquet_task  >> \
                     local_to_gcs_task >> imdb_external_table_task >> \
